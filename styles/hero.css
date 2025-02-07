@@ -1,0 +1,26 @@
+section.hero {
+    max-width: 128rem;
+    width: 100%;
+    padding: 2rem 3.2rem;
+    margin-inline: auto;
+
+    h1 div {
+        display: inline-block;
+        overflow: hidden;
+        height: 8rem;
+        width: min-content;
+        vertical-align: bottom;
+    }
+
+    h1 span:nth-child(1) {
+        color: var(--snitap-sky-mid);
+    }
+
+    h1 span:nth-child(2) {
+        color: var(--snitap-joy-mid);
+    }
+
+    h1 span:nth-child(3) {
+        color: var(--snitap-leaf-mid);
+    }
+}
