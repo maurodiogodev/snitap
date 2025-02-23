@@ -35,7 +35,7 @@ footer {
 
             &:hover::after {
                 opacity: 1;
-                transform: scaleX(1.01);
+                transform: scaleX(1);
             }
         }
 
