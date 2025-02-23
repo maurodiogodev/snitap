@@ -119,3 +119,25 @@ section.gallery {
         transform: translateY(0);
     }
 }
+
+@media (width <=375px) {
+    section.gallery {
+
+        & .content {
+            grid-template-areas:
+                "A"
+                "B"
+                "C"
+                "D";
+        }
+
+        & figure {
+            animation-range: 70px 250px;
+
+            &[data-delay] {
+                animation-range: 70px 250px;
+            }
+
+        }
+    }
+}
