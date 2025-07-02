@@ -20,7 +20,7 @@ Snitap Patins is a fictional roller skates brand landing page designed to demons
 - **Custom CSS variables** for consistent theming
 - **Interactive hover effects** and micro-animations
 
-### ♻️ Advanced Animations
+### 🔄 Advanced Animations
 - **Text cycling animation** in the hero section with bouncing effects
 - **Slide-in animations** for hero images with staggered timing
 - **Scroll-triggered animations** using CSS `animation-timeline: view()`
